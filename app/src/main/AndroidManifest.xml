@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="false"
+        android:label="Solenya MPV Engine"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true">
+        <service
+            android:name=".MpvEngineService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.solenya.engine.mpv.BIND" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

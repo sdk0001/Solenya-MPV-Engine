@@ -1,0 +1,7 @@
+# Copy this file to signing.properties and fill the real values locally.
+# Never commit signing.properties or the keystore.
+
+storeFile=keystore/solenya-mpv-engine-release.jks
+storePassword=REPLACE_ME
+keyAlias=solenya-mpv-engine
+keyPassword=REPLACE_ME

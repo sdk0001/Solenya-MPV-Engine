@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "mpv-engine",
+  "displayName": "MPVENGINE",
+  "packageName": "com.solenya.engine.mpv",
+  "serviceAction": "com.solenya.engine.mpv.BIND",
+  "apiVersion": 1,
+  "minHostApiVersion": 1,
+  "minAndroidSdk": 26,
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "engineVersion": "1.0.0",
+  "supportedAbis": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "apkFileName": "Solenya-MPV-Engine-v1.0.0-arm64.apk",
+  "apkUrl": "https://github.com/sdk0001/Solenya-MPV-Engine/releases/download/v1.0.0/Solenya-MPV-Engine-v1.0.0-arm64.apk",
+  "sha256": "F14D56950097785133866CDA7A76B2087F32B1A1B6CAB36BE7E2277DE81D44B8",
+  "apkVariants": [
+    {
+      "abi": "arm64-v8a",
+      "apkFileName": "Solenya-MPV-Engine-v1.0.0-arm64.apk",
+      "apkUrl": "https://github.com/sdk0001/Solenya-MPV-Engine/releases/download/v1.0.0/Solenya-MPV-Engine-v1.0.0-arm64.apk",
+      "sha256": "F14D56950097785133866CDA7A76B2087F32B1A1B6CAB36BE7E2277DE81D44B8"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "apkFileName": "Solenya-MPV-Engine-v1.0.0-armeabi-v7a.apk",
+      "apkUrl": "https://github.com/sdk0001/Solenya-MPV-Engine/releases/download/v1.0.0/Solenya-MPV-Engine-v1.0.0-armeabi-v7a.apk",
+      "sha256": "1334EAEAE97844743FDC48E81B347767B1CA08F9333BD71210129F08E547C611"
+    }
+  ],
+  "updatedAt": "2026-05-02T00:00:00Z",
+  "releaseNotes": "Initial public release of the separated Solenya MPV Engine plugin with custom arm64-v8a and armeabi-v7a MPV native builds.",
+  "nativeBuild": {
+    "abis": [
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
+    "androidNdk": "29.0.14206865",
+    "androidSdkPlatform": 35,
+    "androidBuildTools": "35.0.0",
+    "mpvAndroidCommit": "3018d47277d5b3ca02acdd96466f261c1d23ee08",
+    "mpvCommit": "b1d23bba5e98a832b312b1b3afa191b0c60ab87c",
+    "mpvDescribe": "v0.41.0-568-gb1d23bba5e",
+    "ffmpegTag": "n8.0.1",
+    "ffmpegCommit": "894da5ca7d742e4429ffb2af534fcda0103ef593",
+    "dav1dCommit": "f995e1fbf9379027367a93aafd2b5711ba76f81e",
+    "libplaceboCommit": "27aa71a97f4daed84916936572fa6a2e1c3eedb7"
+  }
+}
